@@ -1,7 +1,10 @@
+import { Header, Navbar } from "../../components";
+
 const List = () => {
     return (
       <div>
-        <h1>List</h1>
+        <Navbar />
+        <Header type="list"/>
       </div>
     );
   };
