@@ -76,7 +76,8 @@ const Hotel = () => {
             </div>
             <span className="hotelDistance">Excellent location – {data.distance}m from center</span>
             <span className="hotelPriceHighlight">
-              Book a stay starting from ${data.cheapestPrice} at this property and get a free airport taxi
+              Book a stay starting from ${data.cheapestPrice} at this property and get a free
+              airport taxi
             </span>
             <div className="hotelImages">
               {data.photos?.map((photo, i) => (
@@ -88,9 +89,7 @@ const Hotel = () => {
             <div className="hotelDetails">
               <div className="hotelDetailsTexts">
                 <h1 className="hotelTitle">{data.title}</h1>
-                <p className="hotelDesc">
-                  {data.desc}
-                </p>
+                <p className="hotelDesc">{data.desc}</p>
               </div>
               <div className="hotelDetailsPrice">
                 <h1>Perfect for a 9-night stay!</h1>
